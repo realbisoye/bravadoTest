@@ -1,0 +1,39 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "target": "ES2019",
+    "module": "es2015",
+    "allowJs": true,
+    "jsx": "react",
+    "outDir": "./build/",
+    "rootDir": "./app",
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": true,
+    "noImplicitReturns": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "baseUrl": "./",
+    "typeRoots": [
+      "node_modules/@types"
+      ],
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "inlineSourceMap": true,
+    "skipLibCheck": true
+  },
+  "exclude": [
+    "__tests__",
+    "index.js",
+    "metro.config.js",
+    "babel.config.js",
+    "build",
+    "node_modules",
+    "android",
+    "ios"
+  ]
+}
